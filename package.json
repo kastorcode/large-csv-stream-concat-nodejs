@@ -1,0 +1,19 @@
+{
+  "name": "large-csv-stream-concat-nodejs",
+  "version": "1.0.0",
+  "description": "Concatenate unlimited CSV's using Node.js Streams.",
+  "main": "index.js",
+  "scripts": {
+    "start": "clear && DEBUG=app* node index.js"
+  },
+  "keywords": [],
+  "author": "<kastor.code/> Matheus Ramalho de Oliveira",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "csvtojson": "2.0",
+    "debug": "4.1",
+    "json-to-csv-stream": "1.1",
+    "stream-concat": "^0.3.0"
+  }
+}
